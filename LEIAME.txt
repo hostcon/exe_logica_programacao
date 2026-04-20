@@ -1,0 +1,195 @@
+# 📚 Estrutura sugerida do curso (40h)
+
+## 🔹 Aula 1 — Introdução à lógica + ambiente
+
+* O que é lógica de programação
+* O que é algoritmo (exemplos do dia a dia)
+* Instalação (VS Code + Python)
+* Primeiro programa (`print`)
+* Entrada de dados (`input`)
+
+💡 Exercícios:
+
+* Mostrar nome, idade
+* Soma de dois números
+
+---
+
+## 🔹 Aula 2 — Variáveis e operadores (seu `a1_variaveis_operadores`)
+
+* Tipos: `int`, `float`, `str`, `bool`
+* Operadores matemáticos
+* Operadores relacionais
+* Conversão de tipos (`int()`, `float()`)
+
+💡 Exercícios:
+
+* Média de aluno
+* Conversão de metros → cm
+* Cálculo de salário
+
+---
+
+## 🔹 Aula 3 — Estruturas condicionais (seu `a2_estruturas_condicionais`)
+
+* `if`, `elif`, `else`
+* Comparações
+* Operadores lógicos (`and`, `or`, `not`)
+
+💡 Exercícios:
+
+* Par ou ímpar
+* Aprovado/reprovado
+* Maior de idade
+* Sistema de login simples
+
+---
+
+## 🔹 Aula 4 — Condicionais na prática
+
+* Problemas mais completos
+* Condições aninhadas
+* Introdução leve ao `match` (opcional)
+
+💡 Exercícios:
+
+* Calculadora simples
+* Menu de opções
+* Classificação de notas
+
+---
+
+## 🔹 Aula 5 — Laços de repetição (seu `a3_lacos_de_repeticao`)
+
+* `for` com `range`
+* `while`
+* Controle: `break`, `continue`
+
+💡 Exercícios:
+
+* Tabuada
+* Contagem regressiva
+* Sistema com 3 tentativas (login)
+
+---
+
+## 🔹 Aula 6 — Laços + lógica aplicada
+
+* Validação de entrada
+* Acumuladores e contadores
+
+💡 Exercícios:
+
+* Soma de vários números
+* Média da turma
+* Maior e menor valor
+
+---
+
+## 🔹 Aula 7 — Listas (seu `a4_listas_tuplas`)
+
+* O que é lista
+* `append`, `remove`, `pop`
+* Percorrer com `for`
+* `len()`
+
+💡 Exercícios:
+
+* Lista de alunos
+* Controle de presença (P/A)
+* Sorteio com `random`
+
+---
+
+## 🔹 Aula 8 — Listas + Tuplas
+
+* Diferença entre lista e tupla
+* `enumerate`
+* Pequenos sistemas
+
+💡 Exercícios:
+
+* Ranking de alunos
+* Cadastro simples
+* Busca em lista
+
+---
+
+## 🔹 Aula 9 — Funções (ESSENCIAL — faltou na sua estrutura)
+
+📌 Aqui está um ponto importante: você ainda não incluiu funções — elas são fundamentais.
+
+* `def`
+* Parâmetros
+* Retorno (`return`)
+* Organização do código
+
+💡 Exercícios:
+
+* Função de média
+* Calculadora modular
+* Validador de senha
+
+---
+
+## 🔹 Aula 10 — Projeto final + revisão
+
+* Juntar tudo:
+
+  * variáveis
+  * decisões
+  * loops
+  * listas
+  * funções
+
+💡 Projetos:
+
+* Sistema de cadastro
+* Jogo de adivinhação
+* Mini sistema de notas
+
+---
+
+# 📂 Sugestão de organização das pastas
+
+Você pode evoluir seu projeto assim:
+
+```
+EXE_LOGICA_PROGRAMACAO/
+│
+├── a1_variaveis_operadores
+├── a2_estruturas_condicionais
+├── a3_lacos_de_repeticao
+├── a4_listas_tuplas
+├── a5_funcoes        ← (adicione esta!)
+├── a6_projetos
+```
+
+---
+
+# ⚠️ Ajustes importantes na sua estrutura
+
+✔ Você está no caminho certo, mas faltam:
+
+* **Funções (muito importante)**
+* **Uma aula só de prática/projeto**
+* **Separar teoria de prática em alguns momentos**
+
+---
+
+# 🎯 Dica didática (ouro para leigos)
+
+* Ensine sempre assim:
+
+  1. Problema do mundo real
+  2. Lógica (no papel)
+  3. Código em Python
+
+* Evite:
+  ❌ Explicar sintaxe antes da lógica
+  ❌ Termos técnicos demais no início
+
+* Use muito:
+  ✔ Exemplos do dia a dia
+  ✔ Exercícios curtos e progressivos
+  ✔ Repetição (isso fixa)
